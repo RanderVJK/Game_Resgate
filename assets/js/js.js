@@ -20,5 +20,14 @@ function start() { // Inicio da função start()
 	movefundo();
 	
 	} // Fim da função loop()
+
+	//Função que movimenta o fundo do jogo
 	
+	function movefundo() {
+	
+		esquerda = parseInt($("#fundoGame").css("background-position"));
+		$("#fundoGame").css("background-position",esquerda-1);
+		
+		} // fim da função movefundo()
+
 } // Fim da função start
